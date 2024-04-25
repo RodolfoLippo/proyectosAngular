@@ -9,3 +9,6 @@ Elijo CSS
 No quiero server side
 cd ejemplomean
 ng serve
+
+Paso 2:
+ng generate service datos
