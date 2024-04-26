@@ -12,3 +12,14 @@ ng serve
 
 Paso 2:
 ng generate service datos
+
+Paso3:
+No funcionara porque tengo que crear en xamp una carpeta llamada json, donde creare un clientes.json
+con un array de objetos [
+    {
+        "nombre" : "rodo",
+        "email" : "fm@gm.com",
+        "telefono" : "1234567"
+
+    }
+]
