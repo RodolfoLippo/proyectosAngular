@@ -10,7 +10,7 @@ export class DatosService {
   constructor(private http: HttpClient) { }
   getData(): Observable<any> {
     return this.http.get<any>
-    ('Https://example.com/api/data');
+    ('http://localhost:3001/');
     // replace 'Https://example.com/api/data' with your actual JSON API endpoint
   }
 }

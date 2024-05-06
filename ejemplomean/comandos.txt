@@ -1,3 +1,4 @@
+MEAN
 # proyectosAngular
  Paso 1: Instalar Node.js
  npm install -g @angular/cli
@@ -42,3 +43,6 @@ servidor de cualquier origen, tenemos que hacer que nos lo permita nos falta Cor
 
 const cors = require('cors); <-- en servidor
 npm install cors
+aplicacion.use(cors()); 
+
+paso6: procesar la información
